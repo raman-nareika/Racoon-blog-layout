@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 12px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 0 auto;
+    font-size: 3rem;
+    color: #6b9ad0;
+    font-family: "Trend Sans One";
+    text-transform: uppercase;
+}
+  
+.logo__title {
+    display: inline-block;
+    margin: 2.5rem 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__link {
+    width: 56px;
+    height: 56px;
+    background: url('../images/raccoon.png') center center no-repeat, #6b9ad0;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #c6defa;
+    border-bottom: 2px solid #c6defa;
+    background: #6b9ad0;
+    margin-bottom: 4rem;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    list-style-type: none;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.menu__item {
+    width: 15rem;
+    height: 5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menu__link {
+    display: block;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.menu__item-angle {
+    position: absolute;
+    height: 1.33rem;
+    width: 1.33rem;
+    transform: rotate(45deg);
+    left: 82px;
+    bottom: -10px;
+    border-bottom: 2px solid #c6defa;
+    border-right: 2px solid #c6defa;
+    background: #6b9ad0;
+    display: none;
+}
+
+.menu__link:hover + .menu__item-angle {
+    display: block;
+}
+
+main, aside {
+    padding: 0 1rem;
+}
+
+.caption {
+    font-family: sans-serif;
+    font-size: 62px;
+}
+
+.content {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-content: space-around ;
+}
+
+article .title {
+    font-size: 20px;
+    line-height: 1.5rem;
+    color: rgb(105,116,124);
+    font-family: 'Cantarell', sans-serif;
+    padding: 1rem 0;
+}
+
+article .content {
+    font-size: 1rem;
+    line-height: 1.5rem;   
+    color: rgb(105,116,124);
+    font-family: "Arial";
+    text-align: left;
+    padding: 1rem 0 50px 0;
+}
+
+article .info {
+    border-top: 1px solid #e2e5e8;
+    border-bottom: 1px solid #e2e5e8;
+    padding: 1rem 0;
+}
+
+.time,
+.author {
+    font-size: 1rem;
+    color: rgb(105,116,124);
+    font-family: "Arial";
+}
+
+.foot {
+    margin: 0 1rem;
+}
+
+.social-icons {
+    float: right;
+    font-size: 1.5rem;
+}
+
+.square {
+    float: left;
+    color: #fff;
+    font-size: 1.66rem;
+    padding: 0 1rem;
+    background: #6793b7;
+}
+
+.section__title {
+    font-size: 20px;
+    letter-spacing: -2px;
+    line-height: 1.5rem;
+    color: #6290b4;
+    font-family: "Cantarell";
+    text-transform: uppercase;
+    border-bottom: 4px #6793b7 solid;
+    margin-bottom: 1rem;
+}
+
+.section__text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(105,116,124);
+    font-family: "Arial";
+    text-align: left;
+}
+
+.section__info,
+.section__about {
+    margin-bottom: 5rem;
+}
+
+.tag {
+    float: left;
+    margin: 0 20px 7px 0;
+    position: relative;
+ 
+    font-family: "Arial";
+    text-align: left;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+ 
+    color: #fff;
+ 
+    padding: .417em 1em .417em .417em;
+ 
+    border-top: 1px solid #6793b7;
+    border-right: 1px solid #6793b7;
+    border-bottom: 1px solid #6793b7;
+ 
+    -webkit-border-radius: .25em .25em .25em .25em;
+    -moz-border-radius: .25em .25em .25em .25em;
+    border-radius: .25em .35em .25em .25em;
+
+    background-color: #6793b7;
+ 
+    z-index:100;
+}
+
+.tag:before {
+    content:'';
+ 
+    width: 1.3em;
+    height: 1.5em;
+ 
+    background-color: #6793b7;
+     
+    position: absolute;
+    right: -0.69em;
+    top: .2em;
+ 
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+ 
+    border-left:1px solid #6793b7;
+    border-bottom:1px solid #6793b7;
+ 
+    -webkit-border-radius: .25em;
+    -moz-border-radius: .25em;
+    border-radius: .25em;
+ 
+    z-index:1;
+}
+
+.tag:after {
+    content:'';
+ 
+    width:0.5em;
+    height:0.5em;
+ 
+    background:#fff;
+ 
+    -webkit-border-radius:4.167em;
+    -moz-border-radius:4.167em;
+    border-radius:4.167em;
+ 
+    border:1px solid #6793b7;
+ 
+    position:absolute;
+    top:0.667em;
+    right:-0.083em;
+    z-index:9999;
+}
