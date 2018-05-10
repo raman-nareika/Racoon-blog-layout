@@ -2,8 +2,8 @@
     .menu__item {
         width: 8rem;
     }
-    .section__about,
-    .section__info {
+    .section-about,
+    .section-info {
         display: none;
     }
 
