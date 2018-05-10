@@ -59,7 +59,6 @@ html {
 
 .menu__item {
     width: 15rem;
-    height: 5rem;
     box-sizing: border-box;
     position: relative;
 }
@@ -109,7 +108,7 @@ html {
     align-content: space-around ;
 }
 
-.article .title {
+.article__title {
     font-size: 1.66rem;
     line-height: 1.5rem;
     color: rgb(105,116,124);
@@ -117,7 +116,7 @@ html {
     padding: 1rem 0;
 }
 
-.article .content {
+.article__content {
     font-size: 1rem;
     line-height: 1.5rem;   
     color: rgb(105,116,124);
@@ -126,7 +125,7 @@ html {
     padding: 1rem 0 50px 0;
 }
 
-.article .info {
+.article__info {
     border-top: 1px solid #e2e5e8;
     border-bottom: 1px solid #e2e5e8;
     padding: 1rem 0;
@@ -145,7 +144,7 @@ html {
 
 .social-icons {
     float: right;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .section-about__title,
