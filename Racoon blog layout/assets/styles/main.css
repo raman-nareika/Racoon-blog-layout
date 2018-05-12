@@ -49,11 +49,11 @@ html {
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
+    flex-grow: 1;
     list-style-position: inside;
     list-style-type: none;
     display: flex;
+    justify-content: center;
     box-sizing: border-box;
 }
 
@@ -92,7 +92,7 @@ html {
     display: block;
 }
 
-.mobile-menu {
+.tag-button-mobile {
     display: none;
 }
 
@@ -113,10 +113,12 @@ html {
 }
 
 .article__title {
+    font-family: 'Arial Narrow', sans-serif;
+    color:  #69747c;
     font-size: 1.66rem;
+    font-weight: 400;
     line-height: 1.5rem;
-    color: rgb(105,116,124);
-    font-family: 'Cantarell', sans-serif;
+    text-align: left;
     padding: 1rem 0;
 }
 
@@ -278,14 +280,4 @@ html {
 .footer {
     text-align: center;
     padding: 2rem 0 5rem 0;
-}
-
-button {
-    box-shadow: none;
-    border: none;
-    border-radius: 0;
-}
-
-button:focus {
-    outline: none
 }

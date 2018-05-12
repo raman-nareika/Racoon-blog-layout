@@ -1,16 +1,34 @@
 @media (max-device-width: 320px) {
-    .content__main {
-        padding: 0 2rem;
+    .nav {
+        justify-content: flex-start;
     }
 
     .menu {
         display: none;
     }
+    
+    .content__main {
+        padding: 0 2rem;
+    }
 
-    .mobile-menu {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
+    .about-button-tablet,
+    .some-info-button-tablet {
+        font-family: Arial;
+        color:  #608dc1;
+        font-size: 1.66rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        text-align: center;
+        background-color:  #7ca7d9;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: .2rem;
+    }
+
+    .tag-button-mobile {
+        display: inline-block;
+        padding: 0 1.25rem;  
+        background: #7ca7d9 url(../images/tag-button.png) center no-repeat;
     }
 
     .about-button,
@@ -30,12 +48,10 @@
 
     .menu-button {
         background-color:  #9cbce1;
-        padding: 1rem;
     }
 
     .bars {
         display: inline-block;
-        font: normal normal normal 14px/1 FontAwesome;
         font-size: inherit;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
@@ -47,7 +63,7 @@
     }
 
     .article__title {
-        font-family: "Arial Narrow";
+        font-family: 'Arial Narrow';
         color: #5d6871;
         font-size: 1.5rem;
         font-weight: 400;

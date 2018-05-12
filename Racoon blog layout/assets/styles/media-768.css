@@ -1,7 +1,8 @@
 @media (min-device-width: 321px) 
    and (max-device-width: 768px) {
-    .menu::before,
-    .menu::after {
+
+    .about-button-tablet,
+    .some-info-button-tablet {
         font-family: Arial;
         color:  #608dc1;
         font-size: 1.66rem;
@@ -11,14 +12,6 @@
         box-sizing: border-box;
         background-color:  #7ca7d9;
         padding: 1.75rem;
-    }
-
-    .menu::before {
-        content: "?";
-    }
-
-    .menu::after {
-        content: "!";
     }
 
     .menu__item {
@@ -40,10 +33,7 @@
         margin: 0 2%;
     }
 
-    .social-icons {
-        position: absolute;
-        right: .5rem;
-        top: 0;
+    .social-icons-tablet {
         display: flex;
         flex-direction: column;
     }

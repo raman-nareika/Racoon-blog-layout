@@ -1,0 +1,15 @@
+@media (max-device-width: 768px) {
+    .social-icons {
+        display: none;
+    }
+
+    button {
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+    }
+
+    button:focus {
+        outline: none
+    }
+}
